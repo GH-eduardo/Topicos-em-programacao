@@ -1,0 +1,24 @@
+canvas {
+    display: none;
+}
+
+h1 {
+    font-size: 10vh;
+}
+
+#botaoReload {
+    padding: 30px 30px;
+    font-size: 96px;
+    background-color: rgb(180, 180, 201);
+    color: rgb(0, 0, 0); /* Cor do texto e ícone */
+    border: none; /* Remove a borda padrão */
+    border-radius: 20px; /* Bordas arredondadas */
+    cursor: pointer; /* Mãozinha ao passar o mouse */
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#botaoReload:hover {
+    background-color: #4CAF50; /* Cor de fundo verde */
+}
